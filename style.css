@@ -9,7 +9,7 @@ body {
 header {
   padding: 60px 20px;
   text-align: center;
-  background: #9bb0cf;
+  background: #00274C;
 }
 
 header h1 {
@@ -41,6 +41,14 @@ section {
 
   box-shadow:
       0 2px 8px rgba(0,0,0,0.08);
+}
+
+.project:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 40px rgba(0,0,0,.12);
+
 }
 
 .project h3 {
