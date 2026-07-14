@@ -1,8 +1,9 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  color: #222;
+  color: #333333;
   line-height: 1.6;
+  background-color: #f8f9fa;
 }
 
 header {
@@ -12,6 +13,7 @@ header {
 }
 
 header h1 {
+  color: #00274C;
   font-size: 48px;
   margin-bottom: 10px;
 }
@@ -31,14 +33,27 @@ section {
 
 .project {
   border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 24px;
-  margin-bottom: 24px;
+  
   background: white;
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 30px;
+
+  box-shadow:
+      0 2px 8px rgba(0,0,0,0.08);
 }
 
 .project h3 {
   margin-top: 0;
+}
+
+.project h3 a {
+    color: #00274C;
+    text-decoration: none;
+}
+
+.project h3 a:hover {
+    color: #FFCB05;
 }
 
 .container {
