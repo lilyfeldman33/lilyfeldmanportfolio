@@ -89,7 +89,9 @@ section {
     align-items:center;
     gap:20px;
 }
-.hero-right img{
-    width:220px;
-    border-radius:15px;
+.hero-right img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 12px;
 }
