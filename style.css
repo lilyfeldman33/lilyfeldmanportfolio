@@ -3,7 +3,7 @@ body {
   margin: 0;
   color: #333333;
   line-height: 1.6;
-  background-color: #F6F8FB;
+  background-color: #dfe6f0;
 }
 
 header {
@@ -61,7 +61,7 @@ section {
 }
 
 .project h3 a:hover {
-    color: #FFCB05;
+    color: #45c458;
 }
 
 .container {
