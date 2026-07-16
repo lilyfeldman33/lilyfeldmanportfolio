@@ -114,7 +114,7 @@ section {
 
 .project-thumbnail {
   display: block;
-  width: 50%;
+  width: 100%;
   max-width: 50%;
   height: 450px;
 
