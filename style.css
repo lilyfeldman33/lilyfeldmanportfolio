@@ -77,16 +77,10 @@ section {
     justify-content: center;
 }
 .hero-photo img {
-    width: 190px;
-    height: 190px;
-
-    object-fit: cover;
-
-    border-radius: 50%;
-
-    border: 5px solid white;
-
-    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  width: 165px;
+  height: 165px;
+  object-fit: cover;
+  border-radius: 12px;
 }
 
 .hero-text {
