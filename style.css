@@ -106,8 +106,8 @@ section {
 }
 
 .hero-logos img {
-  width: 60px;
-  height: 60px;
+  width: 125px;
+  height: 125px;
   object-fit: cover;
   border-radius: 12px;
 }
