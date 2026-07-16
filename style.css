@@ -59,16 +59,34 @@ section {
 }
 
 .hero {
-  max-width: 1100px;
-  margin: 60px auto;
-  padding: 35px 45px;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 40px;
 
-  display: grid;
-  grid-template-columns: 210px 1fr 210px;
-  align-items: center;
-  gap: 30px;
+    display: grid;
+    grid-template-columns: 220px 1fr 200px;
 
-  background-color: #f6f8fb;
+    align-items: center;
+    gap: 40px;
+
+    background: #f6f8fb;
+    border-radius: 15px;
+}
+.hero-photo {
+    display: flex;
+    justify-content: center;
+}
+.hero-photo img {
+    width: 190px;
+    height: 190px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 5px solid white;
+
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 }
 
 .hero-text {
